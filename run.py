@@ -91,13 +91,13 @@ def passlocker():
                     save_user(create_new_user(username,password))
                     print("*"*85)
                     print(f"Hello {username}!, Your account has been created succesfully!.")
-                    print("Proceed to sign in!")
+                    print("Proceed to log in!")
                     break
                 elif password_Choice == 'gp':
                     password = generate_Password()
                     print("*"*85)
                     print(f"Hello {username}!, Your account has been created succesfully! Your password is: ({password}).")
-                    print("Proceed to sign in!")
+                    print("Proceed to log in!")
                     break
                 else:
                     print("Invalid password please try again")
