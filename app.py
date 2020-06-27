@@ -37,7 +37,7 @@ class Credentials():
     """
     credentials_list = []
     @classmethod
-    def verify_user(cls,username, password):
+    def verify_user(cls, username, password):
         """
         method to verify whether the user is in our user_list or not
         """
@@ -100,7 +100,7 @@ class Credentials():
         found_credentials = Credentials.find_credential(account)
         pyperclip.copy(found_credentials.password)
 
-    def generatePassword(self, stringLength=8):
+    def generatePassword(stringLength=8):
         """Generate a random password string of letters and digits and special characters"""
-        password = string.ascii_uppercase + string.ascii_lowercase + string.digits + "~!@#$%^&*"
+        password = "~!@#$%^&*" + string.ascii_uppercase + string.ascii_lowercase + string.digits
         return ''.join(random.choice(password) for i in range(stringLength))
