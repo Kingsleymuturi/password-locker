@@ -95,6 +95,7 @@ def passlocker():
         print("*"*85)
         print(f"Hello {username}!, Your account has been created succesfully! Your password is: ({password}). Do not share this password to anyone for your safety!")
         print("*"*85)
+        print("Welcome To PassWord-Locker App!")
     elif short_code == "li":
         print("*"*50)
         print("Enter your Username and your Password to log in:")
