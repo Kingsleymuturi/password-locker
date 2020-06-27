@@ -17,7 +17,7 @@ This app allows users to first of all create an account whereby they will be sto
 ![Password-locker python shell](Image/passapp.jpg)
 
 ## Known Bugs
-The log in bit doesn't verify yet.
+There are no known bugs yet.
 ### Development
 Want to contribute? Great!
 
