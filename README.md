@@ -12,7 +12,7 @@ This project was generated with [Python](https://github.com/python) version 3.7.
 ## Description of functionality:
 This app allows users to first of all create an account whereby they will be storing their credentials, having options to delete and save credentials too.
 ## Access
-* Clone the repo and then run it on your terminal
+* Clone the repo and then run the run.py file on your terminal
 * You should see something similar to the following image:
 ![Password-locker python shell](Image/passapp.jpg)
 
