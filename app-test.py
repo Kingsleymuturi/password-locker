@@ -97,7 +97,13 @@ class TestCredentials(unittest.TestCase):
         the_credential.save_details()
         credential_is_found = Credentials.if_credential_exist("Facebook")
         self.assertTrue(credential_is_found)
+    
+    def test_display_all_saved_credentials(self):
+        '''
+        method that displays all the credentials that has been saved by the user
+        '''
 
+        self.assertEqual(Credentials.display_credentials(),Credentials.credentials_list)
     
 if __name__ == "__main__":
     unittest.main()
