@@ -77,7 +77,7 @@ def passlocker():
     print('*'*10 + "PASSWORD LOCKER APP" + '*'*10)
     print('\n')
     while True :
-        print("Hello! Welcome to Password Locker App!\n Please type one of the following short codes to proceed.\n NA ---  Create New Account  \n LI ---  Log in to your account  \n")
+        print("Hello! Welcome to Password Locker App!\n Please type one of the following short codes to proceed.\n NA ---  Create New Account  \n LI ---  Log in to your account  \n EXIT --- Exit application \n")
         short_code=input("").lower().strip()
         if short_code == "na":
             print("Sign Up")
@@ -92,12 +92,14 @@ def passlocker():
                     print("*"*85)
                     print(f"Hello {username}!, Your account has been created succesfully!.")
                     print("Proceed to log in!")
+                    print('\n')
                     break
                 elif password_Choice == 'gp':
                     password = generate_Password()
                     print("*"*85)
                     print(f"Hello {username}!, Your account has been created succesfully! Your password is: ({password}).")
                     print("Proceed to log in!")
+                    print('\n')
                     break
                 else:
                     print("Invalid password please try again")
@@ -195,6 +197,9 @@ def passlocker():
                 print("Invalid Username or Password!")
                 print("Please try again!")
                 continue
+        elif short_code == 'exit':
+            print("Thanks for using Password-Locker App.. See you next time!")
+            break
         else:
             print("Invalid input!")
             print("Please try again!")
