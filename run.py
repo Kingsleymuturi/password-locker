@@ -112,7 +112,7 @@ def passlocker():
             print('*' * 50)
             print("Enter your Password:")
             password = input("password: ")
-        
+            print('\n')
             if login_user(username, password):
                 print(f"Hello {username}.Welcome To PassWord Locker Manager")  
                 
