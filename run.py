@@ -77,7 +77,7 @@ def passlocker():
     print('*'*10 + "PASSWORD LOCKER APP" + '*'*10)
     print('\n')
     while True :
-        print("Hello! Welcome to Password Locker App...\n Please type one of the following short codes to proceed.\n NA ---  Create New Account  \n LI ---  Log in to your account  \n")
+        print("Hello! Welcome to Password Locker App!\n Please type one of the following short codes to proceed.\n NA ---  Create New Account  \n LI ---  Log in to your account  \n")
         short_code=input("").lower().strip()
         if short_code == "na":
             print("Sign Up")
