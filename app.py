@@ -37,7 +37,7 @@ class Credentials():
     """
     credentials_list = []
     @classmethod
-    def verify_user(cls, username, password):
+    def verify_user(cls,username, password):
         """
         method to verify whether the user is in our user_list or not
         """
@@ -46,7 +46,7 @@ class Credentials():
             if(user.username == username and user.password == password):
                     a_user == user.username
         return a_user
-
+        
     def __init__(self,account,userName, password):
         """
         method that defines user credentials to be stored

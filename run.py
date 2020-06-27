@@ -20,7 +20,7 @@ def display_user():
     return User.display_user()
 def login_user(username,password):
     """
-    function that checks whether a user exist and then login the user in.
+    function that checks whether a user exists and then login the user.
     """
   
     check_user = Credentials.verify_user(username,password)
@@ -74,7 +74,7 @@ def copy_password(account):
 
 
 def passlocker():
-    print("Hello! Welcome to your Password Locker App...\n Please enter one of the following to proceed.\n NA ---  Create New Account  \n LI ---  Log in to your account  \n")
+    print("Hello! Welcome to Password Locker App...\n Please enter one of the following to proceed.\n NA ---  Create New Account  \n LI ---  Log in to your account  \n")
     short_code=input("").lower().strip()
     if short_code == "na":
         print("Sign Up")
@@ -98,13 +98,13 @@ def passlocker():
         print("Welcome To PassWord-Locker App!")
     elif short_code == "li":
         print("*"*50)
-        print("Enter your Username and your Password to log in:")
+        print("Enter your User name and your Password to log in:")
         print('*' * 50)
         username = input("Username: ")
         password = input("password: ")
         login = login_user(username,password)
         if login_user == login:
-            print(f"Hello {username}.Welcome To PassWord-Locker App")  
+            print(f"Hello {username}.Welcome To PassWord Locker Manager")  
             print('\n')
     while True:
         print("Use these short codes to choose what to do next:\n CC - Create a new credential \n DC - Display Credentials \n FC - Find a credential \n GP - Generate A randomn password \n D - Delete credential \n EX - Exit the application \n")
