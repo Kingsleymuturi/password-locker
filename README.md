@@ -36,5 +36,5 @@ During the creation of this webpage I used Python only.
 ## Support and contact details
 In case of anything find me here: kingsleymuturi9@gmail.com feel free to communicate any issue with the webpage
 
-### [LICENSE](https://github.com/Kingsleymuturi/Password-locker/blob/master/LICENSE)
+### [LICENSE](https://github.com/Kingsleymuturi/password-locker/blob/master/LICENSE)
 Copyright (c) 2020 [Kingsley Muturi ](https://github.com/Kingsleymuturi)
